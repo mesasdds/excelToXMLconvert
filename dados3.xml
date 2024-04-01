@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data><car><CATEGORIA>Sedan</CATEGORIA>
+<PEÇAS>Motor</PEÇAS>
+<DESCRIÇAO>Motor V6</DESCRIÇAO>
+<VALOR>5000</VALOR>
+<CATEGORIA 1 >Luxo</CATEGORIA 1 >
+<CATEGORIA 2>Potência</CATEGORIA 2>
+<CATEGORIA 3>Conforto</CATEGORIA 3>
+</car><car><CATEGORIA>Hatchback</CATEGORIA>
+<PEÇAS>Freio</PEÇAS>
+<DESCRIÇAO>Sistema de freio ABS</DESCRIÇAO>
+<VALOR>800</VALOR>
+<CATEGORIA 1 >Segurança</CATEGORIA 1 >
+<CATEGORIA 2>Tecnologia</CATEGORIA 2>
+<CATEGORIA 3>Compacto</CATEGORIA 3>
+</car><car><CATEGORIA>SUV</CATEGORIA>
+<PEÇAS>Rodas</PEÇAS>
+<DESCRIÇAO>Rodas de Liga Leve</DESCRIÇAO>
+<VALOR>1200</VALOR>
+<CATEGORIA 1 >Aventura</CATEGORIA 1 >
+<CATEGORIA 2>Conforto</CATEGORIA 2>
+<CATEGORIA 3>Estilo</CATEGORIA 3>
+</car><car><CATEGORIA>Coupé</CATEGORIA>
+<PEÇAS>Faróis</PEÇAS>
+<DESCRIÇAO>Faróis de LED</DESCRIÇAO>
+<VALOR>1500</VALOR>
+<CATEGORIA 1 >Esportivo</CATEGORIA 1 >
+<CATEGORIA 2>Luxo</CATEGORIA 2>
+<CATEGORIA 3>Estilo</CATEGORIA 3>
+</car><car><CATEGORIA>Pickup</CATEGORIA>
+<PEÇAS>Carroceria</PEÇAS>
+<DESCRIÇAO>Carroceria de Alumínio</DESCRIÇAO>
+<VALOR>3000</VALOR>
+<CATEGORIA 1 >Utilitário</CATEGORIA 1 >
+<CATEGORIA 2>Resistência</CATEGORIA 2>
+<CATEGORIA 3>Potência</CATEGORIA 3>
+</car></data>

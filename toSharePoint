@@ -1,0 +1,33 @@
+from shareplum import Site
+from shareplum import Office365
+import pandas as pd
+
+# Configurações do SharePoint
+site_url = "https://your-sharepoint-site-url.com/"
+username = "your_username"
+password = "your_password"
+library_name = "Documents"
+file_name = "example.csv"
+
+# Autenticar no SharePoint
+authcookie = Office365(site_url, username=username, password=password).GetCookies()
+site = Site(site_url, authcookie=authcookie)
+
+# Obter o arquivo CSV da pasta no SharePoint
+folder = site.List(library_name).GetFolderByURL("/Shared Documents/Subfolder")
+file = folder.get_file(file_name)
+csv_data = file.download()
+
+# Ler o arquivo CSV com o pandas
+df = pd.read_csv(csv_data)
+
+# Agora você pode continuar com o processamento do arquivo CSV como desejar
+# Por exemplo:
+# df.to_excel("output.xlsx", index=False)
+
+# Após o processamento, você pode carregar o arquivo de volta para o SharePoint se necessário
+# Por exemplo:
+# with open("output.xlsx", "rb") as f:
+#     file.write(f.read())
+
+print("Arquivo CSV baixado com sucesso do SharePoint!")

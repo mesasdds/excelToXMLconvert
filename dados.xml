@@ -1,0 +1,6 @@
+<data><car CATEGORIA="Sedan" PEÇAS="Motor" DESCRIÇAO="Motor V6" VALOR="5000" CATEGORIA 1 ="Luxo" CATEGORIA 2="Potência" CATEGORIA 3="Conforto">
+</car><car CATEGORIA="Hatchback" PEÇAS="Freio" DESCRIÇAO="Sistema de freio ABS" VALOR="800" CATEGORIA 1 ="Segurança" CATEGORIA 2="Tecnologia" CATEGORIA 3="Compacto">
+</car><car CATEGORIA="SUV" PEÇAS="Rodas" DESCRIÇAO="Rodas de Liga Leve" VALOR="1200" CATEGORIA 1 ="Aventura" CATEGORIA 2="Conforto" CATEGORIA 3="Estilo">
+</car><car CATEGORIA="Coupé" PEÇAS="Faróis" DESCRIÇAO="Faróis de LED" VALOR="1500" CATEGORIA 1 ="Esportivo" CATEGORIA 2="Luxo" CATEGORIA 3="Estilo">
+</car><car CATEGORIA="Pickup" PEÇAS="Carroceria" DESCRIÇAO="Carroceria de Alumínio" VALOR="3000" CATEGORIA 1 ="Utilitário" CATEGORIA 2="Resistência" CATEGORIA 3="Potência">
+</car></data>
